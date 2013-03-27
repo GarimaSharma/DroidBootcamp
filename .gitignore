@@ -1,0 +1,15 @@
+.DS_STORE
+gen/
+bin/
+out/
+.idea/
+.classpath
+.project
+*.iws
+*.ipr
+*.iml
+local.properties
+test/local.properties
+project.properties
+test/project.properties
+test/*.iml
