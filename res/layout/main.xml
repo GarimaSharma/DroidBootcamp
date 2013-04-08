@@ -5,9 +5,23 @@
               android:layout_height="fill_parent"
         >
     <EditText
-            android:layout_width="221dp"
-            android:layout_height="68dp"
-            android:text="enter the data"
-            android:id="@+id/editText" android:layout_gravity="center"/>
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/first_operand" android:hint="enter the operand"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_operand" android:hint="enter the operand"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:onClick="add"
+            android:id="@+id/add_button" />
+    <TextView
+            android:layout_width="294dp"
+            android:layout_height="61dp"
+            android:id="@+id/result" android:layout_marginLeft="-66dp"
+            android:layout_gravity="right|center_vertical"/>
 </LinearLayout>
 
