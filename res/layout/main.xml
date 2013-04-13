@@ -8,10 +8,6 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/first_operand" android:hint="enter the operand"/>
-    <EditText
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/second_operand" android:hint="enter the operand"/>
     <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -19,9 +15,10 @@
             android:onClick="add"
             android:id="@+id/add_button" />
     <TextView
-            android:layout_width="294dp"
+            android:layout_width="fill_parent"
+            android:background="#8888ff"
             android:layout_height="61dp"
-            android:id="@+id/result" android:layout_marginLeft="-66dp"
-            android:layout_gravity="right|center_vertical"/>
+            android:id="@+id/result"
+            android:layout_gravity="center_vertical"/>
 </LinearLayout>
 
